@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    line-height: 1.5em;
+    background-color:#ffe4c4;
+    color: #8b4513 ;
+}
+
+main {
+    padding: 20px;
+    margin: auto;
+    max-width: 650px;
+}
+
+section {
+    margin: 100px 0;
+}
+
+h1 {
+    margin-top: 60px;
+    word-spacing: 0.1em;
+    line-height: 1.2em;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: saddlebrown;
+    border-radius: 20pc;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    flex-grow: 1;
+    text-align: center;
+}
+nav ul li a {
+    display: block;
+    padding: 10px;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color:bisque;
+}
+
+.flex {
+    display: flex;
+}
+.flex div {
+    flex-basis: 100%;
+}
+
+#subscription-plans div {
+    padding: 10px 10px 60px;
+    position: relative;
+}
+#subscription-plans ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#subscription-plans div button {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+    background-color: #8b4513;
+    color: #ffe4c4;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+form label, form input {
+    display: block;
+    width: 100%;
+    margin: 0 0 10px;
+    padding: 10px;
+}
+ form input[type="submit"] {
+    width: 100%;
+    background-color: #8b4513;
+    color: bisque;
+    cursor: pointer;
+    border-radius: 20px;
+    border: none;
+ }
+ nav ul li a:hover{
+     color: snow;
+ }
+ #email{
+     background-color: snow;
+     border: none;
+     border-radius: 20px;
+     color: #8b4513;
+ }
+ #subscription-plans div button:hover {
+    box-shadow: 10px 10px 20px saddlebrown; 
+}
+div{
+    border: #8b4513 2px solid;
+    padding: 10px;
+}
